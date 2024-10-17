@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:src="@drawable/weather"
+        android:elevation="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cf_behame_demo_italic"
+        android:letterSpacing="0.2"
+        android:textStyle="bold"
+        android:text="MinusZero"
+        android:textColor="#EFA5FF"
+        android:textSize="@dimen/_27ssp"
+        android:paddingTop="@dimen/_10sdp"
+
+        />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.2"
+        android:text="Weather App"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp"
+
+        />
+</LinearLayout>
